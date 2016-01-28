@@ -1,0 +1,9 @@
+This application will interactively assist you in creating a prediction model for a quality score of an exercise session, based on sensor data.  Accuracy, training time, and confusion matrix information are presented to you on the tabs.
+
+The data used is from the Human Activity Recognigion project.  More detail about this project and the dataset used can be found at http://groupware.les.inf.puc-rio.br/har.
+
+The tabs on this panel guide you through the process.  
+
+* The "Cleaning" tab interactively shows the results of data cleaning operations as you change settings in the data cleaning options panel, left.
+* The "Recursive Partionining" tab interactively shows the results of building a recursive partitioning prediction model from the cleaned dataset, when selected to the left.
+* The "Random Forest" tab shows the results of building a random forest model.  To build the random forest model, select "Build random forest model" to the left, set the options given, and click the "Execute" button.
